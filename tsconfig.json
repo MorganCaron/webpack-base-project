@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": "src",
+		"outDir": "dist",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"module": "es6",
+		"moduleResolution": "node",
+		"target": "es5",
+		"jsx": "react",
+		"lib": [
+			"dom",
+			"esnext"
+		],
+		"declaration": true
+	}
+}
