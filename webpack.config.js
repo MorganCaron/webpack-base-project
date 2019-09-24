@@ -10,3 +10,5 @@ module.exports = (env, argv) => {
 		}
 	});
 };
+
+exit(1); // test CI fail
