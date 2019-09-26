@@ -8,7 +8,7 @@ or
 `npm run watch`
 
 ## Production
-In this mode, the files will be generated in the `/dist` directory and automatically included in the index.html file.
+In this mode, the files will be generated in the `/build` directory and automatically included in the index.html file.
 `npm run prod`
 or
 `npm run build`

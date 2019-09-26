@@ -1,10 +1,12 @@
-name: Node CI
+name: NodeJS CD
 
-on: [push, pull_request]
+on:
+  push:
+    branches:    
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -21,5 +23,7 @@ jobs:
       run: |
         npm install
         npm run build --if-present
+    - name: Deploy on github pages
+      uses: MorganCaron/ghpages-action@master
       env:
-        CI: true
+        BUILD_DIR: build
