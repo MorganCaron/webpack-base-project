@@ -23,8 +23,9 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-    - name: Deploy on github pages
-      uses: MorganCaron/ghpages-action@master
+    - name: Deploy on GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: build
+        BRANCH: gh-pages
+        FOLDER: build
