@@ -7,6 +7,7 @@ module.exports = (env, argv) => {
 		mode: argv.mode,
 		entry: {
 			app: ["./src/ts/app.ts", "./src/sass/style.sass", "./src/css/style.css"]
-		}
+		},
+		favicon: './src/favicon.png'
 	});
 };
