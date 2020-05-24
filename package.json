@@ -11,6 +11,6 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"webpack-config-generator": "^1.0.11"
+		"webpack-config-generator": "^1.0.12"
 	}
 }
