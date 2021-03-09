@@ -3,14 +3,14 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"watch": "webpack-dev-server --mode development --open",
-		"dev": "webpack-dev-server --mode development --open",
+		"watch": "webpack serve --mode development",
+		"dev": "webpack serve --mode development",
 		"build": "webpack --mode production",
 		"prod": "webpack --mode production"
 	},
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"webpack-config-generator": "^1.0.14"
+		"webpack-config-generator": "^1.0.15"
 	}
 }
