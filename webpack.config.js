@@ -8,6 +8,7 @@ module.exports = (env, argv) => {
 		entry: {
 			app: ["./src/ts/app.ts", "./src/sass/style.sass", "./src/css/style.css"]
 		},
+		index: "./src/index.html",
 		favicon: "./src/favicon.png"
 	});
 };

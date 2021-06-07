@@ -10,7 +10,7 @@
 
 ### Project Health
 [![Codacy](https://img.shields.io/codacy/grade/d5b23e1df419455dbf66baee6b9a355d?logo=Codacy&style=for-the-badge)](https://www.codacy.com/manual/MorganCaron/webpack-base-project)
-[![Github Actions](https://img.shields.io/github/workflow/status/MorganCaron/webpack-base-project/NodeJS%20Deployment?logo=Github&style=for-the-badge)](https://github.com/MorganCaron/webpack-base-project/actions?query=workflow%3A%22NodeJS+Deployment%22)
+[![Github Actions](https://img.shields.io/github/workflow/status/MorganCaron/webpack-base-project/Documentation%20deployment?logo=Github&style=for-the-badge)](https://github.com/MorganCaron/webpack-base-project/actions?query=workflow%3A%22Documentation+deployment%22)
 
 ---
 
